@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#007bff" />
+    <title>Mobile Web Service</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <header>
+      <h1>MyData App</h1>
+      <nav>
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Cari data..."
+          aria-label="Cari data"
+        />
+      </nav>
+      <div class="burgerMenu">
+        <button>Lihat</button>
+      </div>
+    </header>
+
+    <main id="app">
+      <div id="dataList" class="list-container">
+        <p>Memuat data...</p>
+      </div>
+    </main>
+
+    <!-- Modal Detail -->
+    <div id="detailModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <div id="detailContent"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

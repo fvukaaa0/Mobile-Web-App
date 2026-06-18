@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Burger King",
+    "rating": "7.5",
+    "waktu": "20 Menit",
+    "biaya": "Rp. 30.000",
+    "kategori": "Makanan",
+    "Ulasan": "Baik",
+    "address": {
+      "city": "Jakarta"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pizza King",
+    "rating": "7.5",
+    "waktu": "40 Menit",
+    "biaya": "Rp. 49.000",
+    "kategori": "Makanan",
+    "Ulasan": "Baik",
+    "address": {
+      "city": "Bali"
+    }
+  }
+]
